@@ -23,7 +23,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #             right
 #
 #        -- In what direction on the screen does the positive Y-axis point?
-#              downwarde
+#              downward
 #
 #     b. Write a line of code that constructs a basic RoseWindow object:
 #          window = rg.Rosewindow()
