@@ -82,10 +82,12 @@ def main():
     draw_many_squares(turtle, 3, 75, 15)
 
     turtle3()
-
     ###########################################################################
     # When the TODOs ask you to test YOUR code, put YOUR tests below this:
     ###########################################################################
+    try_methods()
+    try_functions()
+    try_methods_and_functions()
 
     window.close_on_mouse_click()  # Your code must be ABOVE this statement
 
@@ -180,6 +182,13 @@ def try_methods():
       -- forward    50 units
       -- backward  100 units
     """
+    alex = rg.SimpleTurtle()
+    alex.pen = rg.Pen('brown', 5)
+
+    alex.forward(150)
+    alex.left(90)
+    alex.forward(50)
+    alex.backward(100)
     ###########################################################################
     # DONE: 3. Implement and test this function, per its doc-string above.
     #     (To test it, put a statement in   main   that calls this function.)
@@ -194,6 +203,34 @@ def try_functions():
      -- One jumps to (100, 200), then moves (while drawing) to (0, 0)
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
+    scott=rg.SimpleTurtle('turtle')
+    scott.pen=rg.Pen('light green',10)
+
+    scott.pen_up()
+    scott.go_to(rg.Point(200,100))
+
+    scott.pen_down()
+    scott.go_to(rg.Point(300,30))
+
+
+    Alex = rg.SimpleTurtle('square')
+    Alex.pen = rg.Pen('red', 10)
+
+    Alex.pen_up()
+    Alex.go_to(rg.Point(100, 200))
+
+    Alex.pen_down()
+    Alex.go_to(rg.Point(0,0))
+
+
+    Robin = rg.SimpleTurtle('circle')
+    Robin.pen = rg.Pen('yellow', 10)
+
+    Robin.pen_up()
+    Robin.go_to(rg.Point(-50, 50))
+
+    Robin.pen_down()
+    Robin.go_to(rg.Point(100, 100))
     ###########################################################################
     # DONE: 4. Implement and test this function, per its doc-string above.
     #    (To test it, put a statement in   main   that calls this function.)
@@ -239,6 +276,35 @@ def try_methods_and_functions():
 
       8. Draw a SQUARE whose sides are each of length 50.
     """
+    Shay = rg. SimpleTurtle("turtle")
+    Shay.pen = rg.Pen("blue",5)
+
+    Shay.backward(150)
+
+    Shay.spped=1
+    for _ in range (2):
+        Shay.draw_square(100)
+        Shay.left(30)
+
+    Shay.speed=5
+    Shay.pen= rg.Pen('red',1)
+    for _ in range (10):
+        Shay.draw_square(50)
+        Shay.left(15)
+
+    Shay.speed=100
+    Shay.pen= rg.Pen('red',35)
+    for _ in range (8):
+        Shay.draw_square(300)
+        Shay.left(60)
+
+    Shay.pen=rg.Pen('black',3)
+    Shay.backward(200)
+    Shay.draw_circle(30)
+    Shay.draw_square(50)
+
+
+
     ###########################################################################
     # DONE: 5. Implement and test this function, per its doc-string above.
     #    (To test it, put a statement in   main   that calls this function.)
