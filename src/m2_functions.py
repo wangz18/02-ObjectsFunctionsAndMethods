@@ -32,6 +32,8 @@ def main():
     window = rg.TurtleWindow()
 
     turtle1()
+    turtle4()
+    turtle5()
     turtle3()
     turtle2()
     turtle2()
@@ -104,7 +106,7 @@ def turtle3():
     maja.end_fill()
 
 
-def tyrtle4():
+def turtle4():
     Mike = rg.SimpleTurtle()
     Mike.speed=10
     Mike.pen = rg.Pen('light green', 10)
@@ -116,6 +118,21 @@ def tyrtle4():
     Mike.forward(150)
     Mike.right(90)
     Mike.forward(150)
+
+
+def turtle5():
+    Serry = rg.SimpleTurtle()
+    Serry.speed=100
+    Serry.pen=rg.Pen('yellow', 10)
+
+    Serry.forward(40)
+    Serry.draw_circle(50)
+
+    Alex= rg.SimpleTurtle('turtle')
+    Alex.speed=50
+    Alex.pen=rg.Pen ('red', 15)
+
+    Alex.draw_square(50)
 
 ###############################################################################
 #
@@ -151,7 +168,7 @@ def tyrtle4():
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Define another function,
 #   immediately below the end of the definition of   turtle3   above.
 #   Name your new function   turtle4.
@@ -181,7 +198,7 @@ def tyrtle4():
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Add a line to   main   that CALLS your new function immediately
 #   AFTER  main  calls turtle1.  So:
 #     -- the SimpleTurtle from turtle1 should move,
@@ -197,7 +214,7 @@ def tyrtle4():
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   The previous two TODOs IMPLEMENTED a function (TO-DO 4)
 #   and TESTED that function (TO-DO 5).
 #
@@ -224,7 +241,7 @@ def tyrtle4():
 
 ###############################################################################
 #
-# TODO: 7.
+# DONE: 7.
 #   COMMIT-and-PUSH your work (after changing this TO-DO to DONE).
 #
 #   As a reminder, here is how you should do so:
