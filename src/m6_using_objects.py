@@ -128,7 +128,7 @@ def lines():
 
     line1 = rg.Line(rg.Point(200,250),rg.Point(100,100))
     line1.attach_to(window)
-    line2 = rg.Line(rg.Point(100,10),rg.Point(10,200))
+    line2 = rg.Line(rg.Point(100,15),rg.Point(10,200))
     line2.thickness=10
     MP = line2.get_midpoint()
     line2.attach_to(window)
