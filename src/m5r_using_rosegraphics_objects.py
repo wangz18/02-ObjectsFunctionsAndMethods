@@ -44,7 +44,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #          -- Write the names of two types of graphics objects
 #             that you can construct OTHER than Circle and Point:
-#               Square Rectangulare
+#               Square Rectangle
 #
 #          -- Write the names of three METHODs that Circle objects have:
 #               Hint: Use the circle from the  example3  function below with
